@@ -30,6 +30,7 @@ const conactSchema = new Schema(
   },
   {
     timestamps: true,
+    versionKey: false,
   },
 );
 export const ContactsCollection = model('contacts', conactSchema);
